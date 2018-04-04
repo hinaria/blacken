@@ -1,0 +1,12 @@
+[package]
+name        = "blacken"
+version     = "0.0.1"
+authors     = ["hinaria <a@hinaria.com>"]
+description = "turn off your displays. now."
+
+homepage    = "https://github.com/hinaria/blacken"
+repository  = "https://github.com/hinaria/blacken"
+license     = "MIT/Apache-2.0"
+
+[dependencies]
+winapi      = { version = "0.3.4", features = ["winuser"] }
